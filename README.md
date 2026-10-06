@@ -34,4 +34,4 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Tales Tavares Pidde
 - Thaywan Pietro Silva Carvalho
 - Victor Gabriel da Silva Cunha
-- Yago Pereira Santiago
+- Yago Pereira Santiago [@yagopereira16](https://github.com/yagopereira16)
