@@ -25,7 +25,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Maria Clara de Sousa Rosa
 - Maria Eduarda Cardoso do Nascimento
 - Matheus de Oliveira Paiva
-- Monique Almeida Alves
+- Monique Almeida Alves [@monique0514] (https://github.com/monique0514)
 - Pedro Felipe Rosa dos Santos
 - Pedro Henrique Pereira de Lima Cordeiro
 - Priscylla Souza da Silva
