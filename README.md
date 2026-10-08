@@ -12,7 +12,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Caio Vinícius Rolins de Oliveira[@caioviniciusrolins1213](https://github.com/caioviniciusrolins1213)
 - Diully Silva de Carvalho [@DiullyCarvalho](https://github.com/DiullyCarvalho)
 - Gabryel Vieira Passos [@Vieiraxz](https://github.com/Vieiraxz)
-- Giulia Luiza Rufino Moraes Vieira
+- Giulia Luiza Rufino Moraes Vieira [@gihwatuluv](https://github.com/gihwatuluv)
 - Guilherme Antonio Oliveira Silva
 - Isabella Moreira Marçal
 - Jair Souza Viana
