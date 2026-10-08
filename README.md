@@ -19,7 +19,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - João Pedro Silva Cruz
 - Kauan Fillipe da Silva Rodrigues
 - Lara Rayane Cruz Ferreira
-- Luana de Morais Silva
+- Luana de Morais Silva [@Luana819](https://github.com/Luana819)
 - Luís Gustavo Arriel de Melo [@luisarriel](https://github.com/luisarriel)
 - Luiz Eduardo Bezerra de Jesus
 - Maria Clara de Sousa Rosa [@mariaclr1](https://github.com/mariaclr1)
