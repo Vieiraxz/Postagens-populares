@@ -28,7 +28,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Monique Almeida Alves
 - Pedro Felipe Rosa dos Santos
 - Pedro Henrique Pereira de Lima Cordeiro
-- Priscylla Souza da Silva [@Priscylla08] (https://github.com/Priscylla08/dw-2026-2b)
+- Priscylla Souza da Silva [@Priscylla08](https://github.com/Priscylla08/dw-2026-2b)
 - Rafaella Batista dos Santos
 - Sarah Gabriela Borba
 - Tales Tavares Pidde
