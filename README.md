@@ -8,7 +8,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 
 - Lucas José de Faria [@lucasljf](https://github.com/lucasljf)
 - Anna Beatriz de Sousa Silva
-- Bianca Ribeiro Pires
+- Bianca Ribeiro Pires [@biancarib10](https://github.com/biancarib10)
 - Caio Vinícius Rolins de Oliveira[@caioviniciusrolins1213](https://github.com/caioviniciusrolins1213)
 - Diully Silva de Carvalho [@DiullyCarvalho](https://github.com/DiullyCarvalho)
 - Gabryel Vieira Passos [@Vieiraxz](https://github.com/Vieiraxz)
