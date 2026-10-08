@@ -4,7 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Postagens mais populares</title>
+    <title>Document</title>
+    <style>
+        div {
+            border-style: solid;
+        }
+
+        .postagens {
+            border-color: blue;
+            padding: 10px;
+        }
+
+        .postagem {
+            border-color: red;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,49 +28,14 @@
 
     <div class="postagens">
         <?php
-        require_once "conexao.php";
-
-        $sql = "SELECT 
-    p.idpostagem,
-    p.conteudo,
-
-    (
-        SELECT COUNT(*)
-        FROM curtida c
-        WHERE c.idpostagem = p.idpostagem
-    ) AS quantidade_curtidas,
-    
-    (
-        SELECT COUNT(*)
-        FROM comentario co
-        WHERE co.idpostagem = p.idpostagem
-    ) AS quantidade_comentarios,
-
-    (
-        (
-            SELECT COUNT(*)
-            FROM curtida c
-            WHERE c.idpostagem = p.idpostagem
-        )
-        +
-        (
-            SELECT COUNT(*)
-            FROM comentario co
-            WHERE co.idpostagem = p.idpostagem
-        )
-    ) AS popularidade
-
-FROM postagem p, usuario u WHERE p.idusuario = u.idusuario
-ORDER BY popularidade DESC;";
-        // $sql2 = "SELECT COUNT(*) as quantidade_curtidas FROM curtida, postagem WHERE curtida.idpostagem = postagem.idpostagem;";
-
-        // $curtidas = mysqli_query($conexao, $sql2);
-        // while ($curtida = mysqli_fetch_array($curtidas)) {
-        //     $quantidade_curtidas = $curtida['quantidade_curtidas'];
-        //     echo "Quantidade de curtidas: $quantidade_curtidas";
-        // }
+        require_once "../conexao.php";
+        $sql = "SELECT postagem.idpostagem, postagem.texto, postagem.data_hora, postagem.idusuario, usuario.username, usuario.nome, usuario.foto, (SELECT COUNT(*) FROM curtida WHERE curtida.idpostagem = postagem.idpostagem) AS quantidade_curtidas
+            FROM postagem, usuario
+            WHERE postagem.idusuario = usuario.idusuario
+            ORDER BY quantidade_curtidas DESC;";
 
         $postagens = mysqli_query($conexao, $sql);
+
         while ($postagem = mysqli_fetch_array($postagens)) {
             $idpostagem = $postagem['idpostagem'];
             $texto = $postagem['texto'];
@@ -63,7 +44,7 @@ ORDER BY popularidade DESC;";
             $nome_usuario = $postagem['nome'];
             $username = $postagem['username'];
             $foto_usuario = $postagem['foto'];
-            $postagem['quantidade_curtidas']
+            $quantidade_curtidas = $postagem['quantidade_curtidas'];
 
             echo "<div class='postagem'>";
             echo "<img src='fotos_usuario/$foto_usuario'>";
@@ -75,8 +56,7 @@ ORDER BY popularidade DESC;";
             echo "<br>";
             echo $data_hora;
             echo "<br>";
-            echo "Quantidade de curtidas: " . $postagem['quantidade_curtidas'];
-            echo "<br>";
+            echo "Quantidade de curtidas: $quantidade_curtidas";
 
             echo "<div>";
             $sql2 = "SELECT comentario.idcomentario, comentario.idusuario, comentario.texto, usuario.username, usuario.nome, usuario.foto
