@@ -5,26 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div {
-            border-style: solid;
-        }
-
-        .postagens {
-            border-color: blue;
-            padding: 10px;
-        }
-
-        .postagem {
-            border-color: red;
-            padding: 10px;
-            margin: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="grupo4.css">
 </head>
 
 <body>
-    <h2>Lista de postagem</h2>
+    <h2>Postagens populares</h2>
 
     <div class="postagens">
         <?php
