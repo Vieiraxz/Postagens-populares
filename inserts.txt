@@ -190,3 +190,148 @@ INSERT INTO curtida (idusuario, idpostagem) VALUES
 (8, 20),
 (9, 20),
 (10, 20);
+
+USE banco_rede_social;
+
+INSERT INTO comentario (idusuario, idpostagem, texto) VALUES
+-- Postagem 1
+(2, 1, 'Parabéns pela conquista!'),
+(3, 1, 'Que notícia boa!'),
+(4, 1, 'Muito legal isso!'),
+(5, 1, 'Sucesso sempre!'),
+
+-- Postagem 2
+(1, 2, 'Eu também estou animado!'),
+(3, 2, 'Já estou contando os dias.'),
+(5, 2, 'Finalmente o fim de semana!'),
+
+-- Postagem 3
+(1, 3, 'Ficou muito bom!'),
+(2, 3, 'Quanto tempo você levou?'),
+(4, 3, 'Parabéns pelo esforço!'),
+(6, 3, 'Quero ver o resultado!'),
+(8, 3, 'Muito interessante!'),
+
+-- Postagem 4
+(2, 4, 'Qual seu estilo musical favorito?'),
+(5, 4, 'Também adoro ouvir música.'),
+(7, 4, 'Música melhora qualquer dia!'),
+
+-- Postagem 5
+(1, 5, 'Você merece!'),
+(3, 5, 'Parabéns por alcançar sua meta!'),
+(4, 5, 'Que venham muitas outras conquistas!'),
+(8, 5, 'Continue assim!'),
+(10, 5, 'Muito bom!'),
+
+-- Postagem 6
+(2, 6, 'Minha semana foi muito boa.'),
+(4, 6, 'A melhor coisa foi sair com meus amigos.'),
+(7, 6, 'Foi uma semana bem produtiva!'),
+
+-- Postagem 7
+(1, 7, 'Parabéns pelo resultado!'),
+(3, 7, 'Seu esforço valeu a pena.'),
+(5, 7, 'Continue trabalhando assim!'),
+(9, 7, 'Muito sucesso para você!'),
+
+-- Postagem 8
+(1, 8, 'Concordo totalmente!'),
+(4, 8, 'Sair com os amigos é muito bom.'),
+(6, 8, 'Qual lugar vocês pretendem visitar?'),
+
+-- Postagem 9
+(2, 9, 'Boa sorte nesse projeto!'),
+(3, 9, 'Depois compartilhe os resultados.'),
+(5, 9, 'Tenho certeza de que vai dar certo!'),
+(7, 9, 'Que tipo de projeto é?'),
+(10, 9, 'Muito sucesso!'),
+
+-- Postagem 10
+(2, 10, 'Recomendo assistir a um filme de aventura.'),
+(4, 10, 'Gosto muito de filmes de comédia.'),
+
+-- Postagem 11
+(3, 11, 'Aprender coisas novas é muito bom!'),
+(5, 11, 'Qual foi o assunto?'),
+(8, 11, 'Também gosto de aprender coisas diferentes.'),
+
+-- Postagem 12
+(1, 12, 'Domingo é dia de descansar!'),
+(4, 12, 'Precisamos aproveitar o tempo livre.'),
+(6, 12, 'Concordo com você!'),
+
+-- Postagem 13
+(2, 13, 'Ainda bem que conseguiu resolver!'),
+(4, 13, 'Persistência é tudo.'),
+(7, 13, 'Isso acontece comigo também!'),
+(9, 13, 'Parabéns pela solução!'),
+
+-- Postagem 14
+(1, 14, 'Prefiro estudar de manhã.'),
+(3, 14, 'À noite consigo me concentrar melhor.'),
+(5, 14, 'Depende muito da matéria!'),
+
+-- Postagem 15
+(2, 15, 'Toda conquista merece reconhecimento.'),
+(4, 15, 'Verdade!'),
+(6, 15, 'Parabéns pela conquista!'),
+
+-- Postagem 16
+(1, 16, 'Minha semana também passou rápido.'),
+(3, 16, 'Os dias estão voando!'),
+
+-- Postagem 17
+(2, 17, 'Você poderia começar um curso novo.'),
+(5, 17, 'Aprender um idioma é uma boa ideia.'),
+(8, 17, 'Boa sorte na nova etapa!'),
+
+-- Postagem 18
+(2, 18, 'O importante é dar o nosso melhor.'),
+(4, 18, 'Exatamente!'),
+(6, 18, 'Que venha um dia ainda melhor!'),
+
+-- Postagem 19
+(1, 19, 'Eu adoro conhecer lugares novos.'),
+(3, 19, 'Qual foi o melhor lugar que você visitou?'),
+
+-- Postagem 20
+(2, 20, 'Espero que a próxima semana seja melhor!'),
+(4, 20, 'Precisamos descansar também.'),
+(6, 20, 'Boa sorte nos próximos dias!'),
+(8, 20, 'Vai dar tudo certo!');
+
+
+USE banco_rede_social;
+
+INSERT INTO comentario (idusuario, idpostagem, texto) VALUES
+-- Mais comentários na postagem 20
+(8, 20, 'Espero que venha uma semana tranquila.'),
+(10, 20, 'Um bom descanso para todo mundo!'),
+(2, 20, 'Que tudo dê certo para vocês!'),
+(5, 20, 'Precisamos aproveitar cada oportunidade!'),
+(7, 20, 'Uma nova semana, novas possibilidades!'),
+(9, 20, 'Força e foco nos próximos dias!'),
+(3, 20, 'Concordo, precisamos descansar também!'),
+
+-- Exatamente 20 novos comentários na postagem 1
+(2, 1, 'Que conquista incrível!'),
+(3, 1, 'Fico feliz por você!'),
+(4, 1, 'Continue assim!'),
+(5, 1, 'Você merece todo esse reconhecimento!'),
+(6, 1, 'Muito bom ver esse resultado!'),
+(7, 1, 'Parabéns pelo esforço!'),
+(8, 1, 'Isso é motivo para comemorar!'),
+(9, 1, 'Sucesso nas próximas etapas!'),
+(10, 1, 'Que venham mais conquistas!'),
+(1, 1, 'Muito inspirador!'),
+(3, 1, 'Adorei a novidade!'),
+(4, 1, 'É muito bom alcançar nossos objetivos.'),
+(5, 1, 'Que venham muitas outras vitórias!'),
+(6, 1, 'Parabéns pela dedicação!'),
+(7, 1, 'Você está no caminho certo!'),
+(8, 1, 'Gostei muito de saber disso!'),
+(9, 1, 'Cada esforço vale a pena!'),
+(10, 1, 'Continue compartilhando suas conquistas!'),
+(2, 1, 'Muito sucesso para você!'),
+(4, 1, 'Excelente notícia!');
