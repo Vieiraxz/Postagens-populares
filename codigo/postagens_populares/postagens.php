@@ -29,10 +29,10 @@
     <div class="postagens">
         <?php
         require_once "../conexao.php";
-        $sql = "SELECT postagem.idpostagem, postagem.texto, postagem.data_hora, postagem.idusuario, usuario.username, usuario.nome, usuario.foto, (SELECT COUNT(*) FROM curtida WHERE curtida.idpostagem = postagem.idpostagem) AS quantidade_curtidas
+        $sql = "SELECT postagem.idpostagem, postagem.texto, postagem.data_hora, postagem.idusuario, usuario.username, usuario.nome, usuario.foto, (SELECT COUNT(*) FROM curtida WHERE curtida.idpostagem = postagem.idpostagem) AS quantidade_curtidas, (SELECT COUNT(*) FROM comentario WHERE comentario.idpostagem = postagem.idpostagem) AS quantidade_comentario
             FROM postagem, usuario
             WHERE postagem.idusuario = usuario.idusuario
-            ORDER BY quantidade_curtidas DESC;";
+            ORDER BY (quantidade_curtidas + quantidade_comentario) DESC;";
 
         $postagens = mysqli_query($conexao, $sql);
 
@@ -45,6 +45,7 @@
             $username = $postagem['username'];
             $foto_usuario = $postagem['foto'];
             $quantidade_curtidas = $postagem['quantidade_curtidas'];
+            $quantidade_comentario = $postagem['quantidade_comentario'];
 
             echo "<div class='postagem'>";
             echo "<img src='fotos_usuario/$foto_usuario'>";
@@ -57,6 +58,8 @@
             echo $data_hora;
             echo "<br>";
             echo "Quantidade de curtidas: $quantidade_curtidas";
+            echo "<br>";
+            echo "Quantidade de cometarios: $quantidade_comentario";
 
             echo "<div>";
             $sql2 = "SELECT comentario.idcomentario, comentario.idusuario, comentario.texto, usuario.username, usuario.nome, usuario.foto
