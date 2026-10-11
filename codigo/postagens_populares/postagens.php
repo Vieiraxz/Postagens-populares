@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <h2>Postagens populares</h2>
-
+<div class="postagens cabecalho">
+    <h2 class="titulo" >Postagens populares</h2>
+</div>
     <div class="postagens">
         <?php
         require_once "../conexao.php";
