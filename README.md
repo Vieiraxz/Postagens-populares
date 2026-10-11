@@ -16,7 +16,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Guilherme Antonio Oliveira Silva
 - Isabella Moreira Marçal
 - Jair Souza Viana
-- João Pedro Silva Cruz
+- João Pedro Silva Cruz [@silvacruz7](https://github.com/silvacruz7)
 - Kauan Fillipe da Silva Rodrigues
 - Lara Rayane Cruz Ferreira
 - Luana de Morais Silva [@Luana819](https://github.com/Luana819)
