@@ -39,7 +39,9 @@
             echo "<br>";
             echo $idpostagem;
             echo "<br>";
+            echo "<div class='blocopublicacao'>";
             echo $texto;
+            echo "</div>";
             echo "<br>";
             echo $data_hora;
             echo "<br>";
