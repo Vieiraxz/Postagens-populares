@@ -66,3 +66,12 @@
             margin: 0px;
             font-weight: 600;
         } 
+
+         .blocopublicacao {
+            background-color: #f0f7f7;
+            padding: 15px;
+            margin: 15px;
+            border-style: solid;
+            border-color: #506a6a;
+            border-radius: 8px;
+}
