@@ -9,8 +9,8 @@
 </head>
 
 <body>
-<div class="cabecalho">
-    <h2 class="titulo" >Postagens populares</h2>
+
+    <h2 class="titulo" >Posts mais populares</h2>
 </div>
     <div class="postagens textopostagem">
         <?php
@@ -45,9 +45,8 @@
             echo "<br>";
             echo $data_hora;
             echo "<br>";
-            echo "Quantidade de curtidas: $quantidade_curtidas";
-            echo "<br>";
-            echo "Quantidade de cometarios: $quantidade_comentario";
+            echo "<span class='curtidas'>❤️ $quantidade_curtidas</span>";
+            echo "<span class='comentarios'>💬 $quantidade_comentario</span>";
 
             echo "<div>";
             $sql2 = "SELECT comentario.idcomentario, comentario.idusuario, comentario.texto, usuario.username, usuario.nome, usuario.foto
