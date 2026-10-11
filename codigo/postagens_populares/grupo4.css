@@ -17,12 +17,23 @@
         .cabecalho {
             width: 350px;
             margin: 20px auto;
+            background-color: #dfe8e8;
+            border: 2px;
+            border-style: solid;
+            border-radius: 15px;
+            border-color: #6e9696;
+            padding: 15px;
         }
 
         .titulo {
             font-size: 32px;
             color: #6e9696;
             margin: 0px;
+        }
+
+        .textopostagem {
+            color: #6e9696;
+            font-size: 16px;
         }
 
         body {
@@ -48,4 +59,14 @@
             border-color: #628484;
             margin: 15px;
             padding: 15px;
+        }
+        .nomeusuario {
+            font-size: 25px;
+            color: #506a6a;
+            margin: 0px;
+            font-weight: 600;
+        } 
+
+        .comentarios {
+            
         }

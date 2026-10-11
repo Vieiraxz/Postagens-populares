@@ -9,10 +9,10 @@
 </head>
 
 <body>
-<div class="postagens cabecalho">
+<div class="cabecalho">
     <h2 class="titulo" >Postagens populares</h2>
 </div>
-    <div class="postagens">
+    <div class="postagens textopostagem">
         <?php
         require_once "../conexao.php";
         $sql = "SELECT postagem.idpostagem, postagem.texto, postagem.data_hora, postagem.idusuario, usuario.username, usuario.nome, usuario.foto, (SELECT COUNT(*) FROM curtida WHERE curtida.idpostagem = postagem.idpostagem) AS quantidade_curtidas, (SELECT COUNT(*) FROM comentario WHERE comentario.idpostagem = postagem.idpostagem) AS quantidade_comentario
@@ -35,7 +35,7 @@
 
             echo "<div class='postagem'>";
             echo "<img src='fotos_usuario/$foto_usuario'>";
-            echo "$nome_usuario ($username)";
+            echo "<div class='nomeusuario'>" . $nome_usuario . " (" . $username . ")</div>";
             echo "<br>";
             echo $idpostagem;
             echo "<br>";
