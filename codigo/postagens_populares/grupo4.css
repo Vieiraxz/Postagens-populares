@@ -134,5 +134,16 @@
             border-radius: 50%;
         }
 
-        .
+        .voltar {
+            background-color: #2f3336;
+            border-radius: 50px;
+            border-style: solid;
+            border-color: #16181c;
+            font-size: 13px;
+            color: #e7e9ea; ;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        
        
