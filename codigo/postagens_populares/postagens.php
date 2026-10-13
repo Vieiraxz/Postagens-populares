@@ -22,6 +22,7 @@ if (!isset($_SESSION['idusuario'])) {
     <h2 class="titulo" >Posts mais populares</h2>
 </div>
     <div class="postagens textopostagem">
+        <h3 class="titulo2"> Confira as postagens mais populares </h3>
         <?php
         require_once "../conexao.php";
         $sql = "SELECT postagem.idpostagem, postagem.texto, postagem.data_hora, postagem.idusuario, usuario.username, usuario.nome, usuario.foto, (SELECT COUNT(*) FROM curtida WHERE curtida.idpostagem = postagem.idpostagem) AS quantidade_curtidas, (SELECT COUNT(*) FROM comentario WHERE comentario.idpostagem = postagem.idpostagem) AS quantidade_comentario
@@ -88,10 +89,11 @@ if (!isset($_SESSION['idusuario'])) {
             <input type="submit" value="Comentar" class="acaocomentar">
         <?php
             echo "</div>";
-
+        
             echo "</div>";
         }
         ?>
+        <a href="../principal.php">Voltar</a>
     </div>
 </body>
 
