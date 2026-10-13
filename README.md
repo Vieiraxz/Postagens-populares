@@ -27,7 +27,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Matheus de Oliveira Paiva
 - Monique Almeida Alves [@monique0514](https://github.com/monique0514)
 - Pedro Felipe Rosa dos Santos [@PedrooSad23](https://github.com/PedrooSad23)
-- Pedro Henrique Pereira de Lima Cordeiro
+- Pedro Henrique Pereira de Lima Cordeiro [Hxzpedro](https://github.com/Hxzpedro)
 - Priscylla Souza da Silva [@Priscylla08](https://github.com/Priscylla08/dw-2026-2b)
 - Rafaella Batista dos Santos [@Rafaella1808](https://github.com/Rafaella1808)
 - Sarah Gabriela Borba
