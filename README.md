@@ -33,5 +33,5 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Sarah Gabriela Borba
 - Tales Tavares Pidde
 - Thaywan Pietro Silva Carvalho
-- Victor Gabriel da Silva Cunha
+- Victor Gabriel da Silva Cunha [@victorgabriel69](https://github.com/victorgabriel69)
 - Yago Pereira Santiago [@yagopereira16](https://github.com/yagopereira16)
