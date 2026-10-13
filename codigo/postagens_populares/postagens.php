@@ -45,7 +45,10 @@ if (!isset($_SESSION['idusuario'])) {
 
             echo "<div class='postagem'>";
             echo "<img src='fotos_usuario/$foto_usuario' class='fotos'>";
-            echo "<div class='nomeusuario'>" . $nome_usuario . " (" . $username . ")</div>";
+            echo "<div class='nomeusuario'>";
+            echo $nome_usuario;
+            echo " ($username)";
+            echo "</div>";
             echo "<br>";
             // echo $idpostagem;
             echo "<br>";
