@@ -93,7 +93,7 @@ if (!isset($_SESSION['idusuario'])) {
             echo "</div>";
         }
         ?>
-        <a href="../principal.php">Voltar</a>
+        <a href="../principal.php" class="voltar">Voltar</a>
     </div>
 </body>
 
