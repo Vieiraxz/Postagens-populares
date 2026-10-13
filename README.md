@@ -23,7 +23,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Luís Gustavo Arriel de Melo [@luisarriel](https://github.com/luisarriel)
 - Luiz Eduardo Bezerra de Jesus [@luizbezerra-arch18!](https://github.com/luizbezerra-arch18)
 - Maria Clara de Sousa Rosa [@mariaclr1](https://github.com/mariaclr1)
-- Maria Eduarda Cardoso do Nascimento
+- Maria Eduarda Cardoso do Nascimento [@marianascimento4-star](https://github.com/marianascimento4-star)
 - Matheus de Oliveira Paiva
 - Monique Almeida Alves [@monique0514](https://github.com/monique0514)
 - Pedro Felipe Rosa dos Santos [@PedrooSad23](https://github.com/PedrooSad23)
