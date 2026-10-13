@@ -144,6 +144,10 @@
             text-decoration: none;
             padding: 5px 10px;
         }
+        .voltar:hover {
+            background-color: #4d5357;
+            border-color: #2c3038;
+        }
 
         
        
