@@ -79,3 +79,39 @@
             color: #e7e9ea;
             margin: 5px;
         }
+
+        .comentar {
+            background-color: #2f3336;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: #16181c;
+            font-size: 13px;
+            color: #e7e9ea;
+        }
+
+        .comentar:hover {
+            background-color: #4d5357;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: #2c3038;
+            font-size: 13px;
+            color: #e7e9ea;
+        }
+
+       .acaocomentar {
+            background-color: #16181c;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: #0a0b0e;
+            font-size: 14px;
+            color: #e7e9ea;
+        }
+
+        .acaocomentar:hover {
+            background-color: #272b31;
+            border-color: #1c1e27;
+            border-style: solid;
+            font-size: 14px;
+            color: #e7e9ea;
+        }
+       
