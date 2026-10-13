@@ -75,8 +75,8 @@
             }
         ?>
             <br>
-            <input type="text">
-            <input type="submit" value="Comentar">
+            <input type="text" class="comentar">
+            <input type="submit" value="Comentar" class="acaocomentar">
         <?php
             echo "</div>";
 
