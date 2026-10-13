@@ -15,7 +15,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Giulia Luiza Rufino Moraes Vieira [@gihwatuluv](https://github.com/gihwatuluv)
 - Guilherme Antonio Oliveira Silva
 - Isabella Moreira Marçal
-- Jair Souza Viana
+- Jair Souza Viana [@ASjair] (https://githb.com/ASjair)
 - João Pedro Silva Cruz [@silvacruz7](https://github.com/silvacruz7)
 - Kauan Fillipe da Silva Rodrigues
 - Lara Rayane Cruz Ferreira
