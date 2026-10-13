@@ -51,7 +51,7 @@ Criar uma página para explorar postagens, exibindo autor, conteúdo e quantidad
 - Pedro Henrique Pereira de Lima Cordeiro [Hxzpedro](https://github.com/Hxzpedro)
 - Priscylla Souza da Silva [@Priscylla08](https://github.com/Priscylla08/dw-2026-2b)
 - Rafaella Batista dos Santos [@Rafaella1808](https://github.com/Rafaella1808)
-- Sarah Gabriela Borba
+- Sarah Gabriela Borba [@srrh21](https://github.com/srhh21)
 - Tales Tavares Pidde
 - Thaywan Pietro Silva Carvalho
 - Victor Gabriel da Silva Cunha [@victorgabriel69](https://github.com/victorgabriel69)
