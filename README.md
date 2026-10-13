@@ -4,6 +4,27 @@ Projeto criado com HTML, CSS, PHP e Docker para apresentar alguns conceitos e fu
 
 Possui a documentação do banco. Contém relacionamentos `n:n`.
 
+
+## Implementação de novas funcionalidades
+### Comentários nas postagens
+Implementar a inclusão e listagem de comentários nas postagens. Cada comentário deve identificar seu autor e o usuário só pode excluir comentários que ele próprio criou.
+
+### Curtir e descurtir
+Permitir que o usuário curta e retire a curtida de uma postagem, exibindo a quantidade de curtidas. O sistema deve impedir que o mesmo usuário curta uma postagem mais de uma vez.
+
+### Seguir usuários
+Implementar seguir e deixar de seguir usuários, além de permitir visualizar seguidores e pessoas seguidas. Um usuário não pode seguir a si mesmo nem seguir a mesma pessoa duas vezes.
+
+### Perfil do usuário
+Criar uma página de perfil que apresente os dados do usuário, suas postagens, quantidade de seguidores e de pessoas seguidas. Ao visualizar outro usuário, deve ser possível segui-lo/deixá-lo de seguir.
+
+### Feed personalizado
+Criar uma página que apresente as postagens do próprio usuário e das pessoas que ele segue, organizadas das mais recentes para as mais antigas. A consulta deverá utilizar os relacionamentos existentes entre usuários e postagens.
+
+### Postagens populares
+Criar uma página para explorar postagens, exibindo autor, conteúdo e quantidade de curtidas/comentários. As postagens devem ser ordenadas por algum critério de popularidade definido pelo grupo.
+
+
 ## Equipe de Desenvolvimento
 
 - Lucas José de Faria [@lucasljf](https://github.com/lucasljf)
