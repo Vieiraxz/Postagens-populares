@@ -33,7 +33,7 @@ if (!isset($_SESSION['idusuario'])) {
         $postagens = mysqli_query($conexao, $sql);
 
         while ($postagem = mysqli_fetch_array($postagens)) {
-            $idpostagem = $postagem['idpostagem'];
+             $idpostagem = $postagem['idpostagem'];
             $texto = $postagem['texto'];
             $data_hora = $postagem['data_hora'];
             $idusuario = $postagem['idusuario'];
@@ -47,7 +47,7 @@ if (!isset($_SESSION['idusuario'])) {
             echo "<img src='fotos_usuario/$foto_usuario'>";
             echo "<div class='nomeusuario'>" . $nome_usuario . " (" . $username . ")</div>";
             echo "<br>";
-            echo $idpostagem;
+            // echo $idpostagem;
             echo "<br>";
             echo "<div class='blocopublicacao'>";
             echo $texto;
@@ -69,15 +69,15 @@ if (!isset($_SESSION['idusuario'])) {
                 echo "Seja o primeiro a comentar...";
             } else {
                 while ($comentario = mysqli_fetch_array($comentarios)) {
-                    $idcomentario = $comentario['idcomentario'];
-                    $comentario_idusuario = $comentario['idusuario'];
+                    // $idcomentario = $comentario['idcomentario'];
+                    // $comentario_idusuario = $comentario['idusuario'];
                     $comentario_texto = $comentario['texto'];
                     $comentario_nome_usuario = $comentario['nome'];
                     $comentario_username_usuario = $comentario['username'];
                     $comentario_foto_usuario = $comentario['foto'];
 
                     echo "<br>";
-                    echo $idcomentario;
+                    // echo $idcomentario;
                     echo "<img src='fotos_usuario/$comentario_foto_usuario'>";
                     echo "$comentario_nome_usuario ($comentario_username_usuario)";
                     echo $comentario_texto;
