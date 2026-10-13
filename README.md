@@ -21,7 +21,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Lara Rayane Cruz Ferreira
 - Luana de Morais Silva [@Luana819](https://github.com/Luana819)
 - Luís Gustavo Arriel de Melo [@luisarriel](https://github.com/luisarriel)
-- Luiz Eduardo Bezerra de Jesus
+- Luiz Eduardo Bezerra de Jesus [@luizbezerra-arch18!](https://github.com/luizbezerra-arch18)
 - Maria Clara de Sousa Rosa [@mariaclr1](https://github.com/mariaclr1)
 - Maria Eduarda Cardoso do Nascimento
 - Matheus de Oliveira Paiva
