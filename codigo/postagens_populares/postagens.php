@@ -6,7 +6,6 @@ if (!isset($_SESSION['idusuario'])) {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,7 +55,9 @@ if (!isset($_SESSION['idusuario'])) {
             echo $texto;
             echo "</div>";
             echo "<br>";
-            echo $data_hora;
+            echo "<span class='datahora'>";
+            echo date("d/m/Y H:i", strtotime($data_hora));
+            echo "</span>";
             echo "<br>";
             echo "<span class='curtidas'>❤️ $quantidade_curtidas</span>";
             echo "<span class='comentarios'>💬 $quantidade_comentario</span>";
