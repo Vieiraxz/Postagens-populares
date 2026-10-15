@@ -62,13 +62,14 @@
         .nomeusuario {
             font-size: 25px;
             color: #e7e9ea;
-            margin: 0px;
+            margin: 0px 0px 10px;
             font-weight: 600;
         } 
         .blocopublicacao {
             background-color: #16181c;
             padding: 15px;
-            margin: 15px;
+            margin: 15px 15px 10px;
+            border: 1px;
             border-style: solid;
             border-color: #2f3336;
             border-radius: 8px;
@@ -88,6 +89,7 @@
         }
 
         .comentar {
+            margin-top: 10px;
             background-color: #2f3336;
             border-radius: 5px;
             border-style: solid;
@@ -98,11 +100,7 @@
 
         .comentar:hover {
             background-color: #4d5357;
-            border-radius: 5px;
-            border-style: solid;
             border-color: #2c3038;
-            font-size: 13px;
-            color: #e7e9ea;
         }
 
        .acaocomentar {
@@ -117,9 +115,6 @@
         .acaocomentar:hover {
             background-color: #272b31;
             border-color: #1c1e27;
-            border-style: solid;
-            font-size: 14px;
-            color: #e7e9ea;
         }
 
         .fotos {
@@ -143,7 +138,7 @@
             border-style: solid;
             border-color: #16181c;
             font-size: 13px;
-            color: #e7e9ea; ;
+            color: #e7e9ea;
             text-decoration: none;
             padding: 5px 10px;
         }
@@ -151,6 +146,28 @@
             background-color: #4d5357;
             border-color: #2c3038;
         }
+
+        .datahora {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .blocopublicacao {
+            margin-bottom: 10px;
+        }
+
+        .interacoes {
+            margin-bottom: 15px;
+        }
+
+        .comentario {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+
+
 
         
        
