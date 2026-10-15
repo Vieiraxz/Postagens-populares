@@ -83,12 +83,13 @@ if (!isset($_SESSION['idusuario'])) {
                     
                 
             echo "<div class='comentario'>";
+            echo "<div class='nomefoto'>";
             echo "<img src='fotos_usuario/$comentario_foto_usuario' class='fotos1'>";
-            echo "<div>";
             echo "<div class='nomecomentario'>$comentario_nome_usuario ($comentario_username_usuario)</div>";
             echo "</div>";
             echo "<p>$comentario_texto</p>";
             echo "</div>";
+            echo "<hr>";
 
 
 

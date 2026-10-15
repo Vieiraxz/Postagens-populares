@@ -170,12 +170,6 @@
             margin-bottom: 15px;
         }
 
-        .comentario {
-            display: flex;
-            align-items: center;
-            margin: 5px 0px;
-        }
-
 
         .dadoscomentario {
             display: flex;
@@ -186,19 +180,30 @@
             margin: 5px 0 0;
         }
 
-        .textocomentario {
-            margin: 0px;
+        .comentario {
+            display: block;
+            align-items: center;
+            margin: 5px 0px;
         }
-
         
         .nomecomentario {
+            display: inline-block;
             color: #e7e9ea;
             font-size: 18px;
             font-weight: bolder;
         }
 
+        .nomefoto{
+            display: inline-flex;
+            align-items: center;
+        }
 
-
+        hr {
+            
+            border-style: 1px solid;
+            border-color: #2f3336;
+            
+        }
 
         
        
