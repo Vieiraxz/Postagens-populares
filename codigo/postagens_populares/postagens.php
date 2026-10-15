@@ -12,14 +12,13 @@ if (!isset($_SESSION['idusuario'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Postagens Populares</title>
     <link rel="stylesheet" href="grupo4.css">
 </head>
 
 <body>
 
     <h2 class="titulo" >Posts mais populares</h2>
-</div>
     <div class="postagens textopostagem">
         <h3 class="titulo2"> Confira as postagens mais populares </h3>
         <?php
@@ -48,19 +47,17 @@ if (!isset($_SESSION['idusuario'])) {
             echo $nome_usuario;
             echo " ($username)";
             echo "</div>";
-            echo "<br>";
             // echo $idpostagem;
-            echo "<br>";
             echo "<div class='blocopublicacao'>";
             echo $texto;
             echo "</div>";
-            echo "<br>";
             echo "<span class='datahora'>";
             echo date("d/m/Y H:i", strtotime($data_hora));
             echo "</span>";
-            echo "<br>";
+            echo "<div class='interacoes'>";
             echo "<span class='curtidas'>❤️ $quantidade_curtidas</span>";
             echo "<span class='comentarios'>💬 $quantidade_comentario</span>";
+            echo "</div>";
 
             echo "<div>";
             $sql2 = "SELECT comentario.idcomentario, comentario.idusuario, comentario.texto, usuario.username, usuario.nome, usuario.foto
@@ -80,15 +77,15 @@ if (!isset($_SESSION['idusuario'])) {
                     $comentario_username_usuario = $comentario['username'];
                     $comentario_foto_usuario = $comentario['foto'];
 
-                    echo "<br>";
+                    echo "<div class='comentario'>";
                     // echo $idcomentario;
                     echo "<img src='fotos_usuario/$comentario_foto_usuario' class='fotos1'>";
                     echo "$comentario_nome_usuario ($comentario_username_usuario)";
                     echo $comentario_texto;
+                    echo "</div>";
                 }
             }
         ?>
-            <br>
             <input type="text" class="comentar">
             <input type="submit" value="Comentar" class="acaocomentar">
         <?php
