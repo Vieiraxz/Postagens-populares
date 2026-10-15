@@ -59,11 +59,19 @@
             margin: 15px;
             padding: 15px;
         }
+
+        .fotousu {
+            display: inline-flex;
+            align-items: center;
+
+        }
+
         .nomeusuario {
             font-size: 25px;
             color: #e7e9ea;
-            margin: 0px 0px 10px;
             font-weight: 600;
+            display: inline-block;
+            margin-left: 5px;
         } 
         .blocopublicacao {
             background-color: #16181c;

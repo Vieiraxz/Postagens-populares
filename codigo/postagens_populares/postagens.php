@@ -42,11 +42,14 @@ if (!isset($_SESSION['idusuario'])) {
             $quantidade_comentario = $postagem['quantidade_comentario'];
 
             echo "<div class='postagem'>";
+            echo "<div class='fotousu'>";
             echo "<img src='fotos_usuario/$foto_usuario' class='fotos'>";
             echo "<div class='nomeusuario'>";
             echo $nome_usuario;
             echo " ($username)";
             echo "</div>";
+            echo "</div>";
+
             // echo $idpostagem;
             echo "<div class='blocopublicacao'>";
             echo $texto;
