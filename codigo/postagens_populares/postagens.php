@@ -80,12 +80,18 @@ if (!isset($_SESSION['idusuario'])) {
                     $comentario_username_usuario = $comentario['username'];
                     $comentario_foto_usuario = $comentario['foto'];
 
-                    echo "<div class='comentario'>";
-                    // echo $idcomentario;
-                    echo "<img src='fotos_usuario/$comentario_foto_usuario' class='fotos1'>";
-                    echo "$comentario_nome_usuario ($comentario_username_usuario)";
-                    echo $comentario_texto;
-                    echo "</div>";
+                    
+                
+            echo "<div class='comentario'>";
+            echo "<img src='fotos_usuario/$comentario_foto_usuario' class='fotos1'>";
+            echo "<div>";
+            echo "<div class='nomecomentario'>$comentario_nome_usuario ($comentario_username_usuario)</div>";
+            echo "</div>";
+            echo "<p>$comentario_texto</p>";
+            echo "</div>";
+
+
+
                 }
             }
         ?>

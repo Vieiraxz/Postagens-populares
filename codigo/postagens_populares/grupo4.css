@@ -140,6 +140,7 @@
             border-radius: 50%;
         }
 
+
         .voltar {
             background-color: #2f3336;
             border-radius: 50px;
@@ -170,8 +171,30 @@
         }
 
         .comentario {
-            margin-top: 10px;
-            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            margin: 5px 0px;
+        }
+
+
+        .dadoscomentario {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nomecomentario {
+            margin: 5px 0 0;
+        }
+
+        .textocomentario {
+            margin: 0px;
+        }
+
+        
+        .nomecomentario {
+            color: #e7e9ea;
+            font-size: 18px;
+            font-weight: bolder;
         }
 
 
